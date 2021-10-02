@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-large {
+  padding-left: 1rem;
+  padding-right: 1rem; 
+  flex-basis: 100%;
+  margin-bottom: 1rem;
+}
+
+.flex-row {
+  margin-left: -1rem;
+  margin-right: -1rem; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%; }
+
+thead th {
+  border-bottom: 2px solid #dedede; 
+}
+
+tfoot th {
+  border-top: 2px solid #dedede; 
+}
+
+td {
+  border-bottom: 1px solid #dedede; 
+  text-align: left;
+  padding: .5rem; 
+}
+
+th {
+  text-align: left;
+  padding: .5rem; 
+}
+
+.muted-button {
+  background: transparent;
+  margin-right: 5px;
+  border: 1px solid #cdcdcd;
+  color: #4e4e4e; 
+}
+
+.muted-button:hover, .muted-button:focus, .muted-button:active {
+  color: #4e4e4e;
+  border: 1px solid #818181;
+  background: transparent; 
+}
+
+.input-area {
+  border: 1px solid #cdcdcd;
+  margin: 0px 20px 5px 20px;
+}
+
+
+h2 {
+  font-size: 1.5rem; 
+}
+
+@media (min-width: 600px) {
+  h2 {
+    font-size: 2rem; 
+  }
+}
